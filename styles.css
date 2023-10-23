@@ -7,9 +7,14 @@
 	width: 100vw;
 	height: 100vh;
 }
-.item-1 {
+.item {
   width: 100px;
   height: 100px;
   background-color: red;
+}
+.item-1 {
+  grid-area: 1 / 1 / 2 / 2; /* Place in the first cell (top-left) */
+  background-color: red;
+  color: white;
 }
 
