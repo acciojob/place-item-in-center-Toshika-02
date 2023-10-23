@@ -13,7 +13,6 @@
   background-color: red;
 }
 .item-1 {
-  grid-area: 1 / 1 / 2 / 2; /* Place in the first cell (top-left) */
   background-color: red;
   color: white;
 }
