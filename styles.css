@@ -1,26 +1,16 @@
 
 /* Your CSS Code here. */
-body {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* Make the body take full viewport height */
-}
-
 .holder {
   display: flex;
-  align-items: center;
   justify-content: center;
-  width: 100vw; /* Make the holder take full viewport width */
-  height: 100vh; /* Make the holder take full viewport height */
+  align-items: center;
+  /* Additional properties for full viewport size */
+  width: 100vw;
+  height: 100vh;
 }
 
 .item-1 {
   width: 100px;
   height: 100px;
   background-color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
