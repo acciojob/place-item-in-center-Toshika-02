@@ -2,15 +2,14 @@
 /* Your CSS Code here. */
 .holder {
   display: flex;
-  justify-content: center;
   align-items: center;
-  /* Additional properties for full viewport size */
-  width: 100vw;
-  height: 100vh;
+  justify-content: center;
+  height: 100vh; /* Set height to 100% to take full viewport height */
+  width: 100vw; /* Set width to 100% to take full viewport width */
 }
 
-.item-1 {
-  width: 100px;
-  height: 100px;
+.item {
+  flex-basis: 100px; /* Set width to 100px */
+  height: 100px; /* Set height to 100px */
   background-color: red;
 }
